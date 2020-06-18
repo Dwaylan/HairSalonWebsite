@@ -1,10 +1,10 @@
 header{
-    width: 960px;
     height: 164px;
     background-color: #4C8F96;
 }
 
-.container{
+body{
+    background-color: #ededed;
 
 }
 
@@ -39,6 +39,10 @@ nav {
     padding-right: 2%;
     }
 
+/* article{
+    padding: 5px 5px 29px;
+} */
+
 
 .Title_image{
     display: flex;
@@ -49,15 +53,37 @@ nav {
     margin: 50px auto 28px;
     overflow: hidden;
     padding: 0;
-    width: 936px;
 }
 
 .Image_gallery{
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
+    /* padding: 5px; */
 
 }
 
-/* .Article{
 
-} */ 
+.columns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.featured_article{
+    border: solid 5px #4C8F96;    
+}
+
+.Hairstyle_article{
+    border: solid 5px #4C8F96;
+    background-color: #519194;
+}
+
+.Hair_loss_article{
+    border: solid 5px #4C8F96;
+    background-color: #519194;
+}
+
+img{
+    border: solid 5px #4C8F96;
+}
