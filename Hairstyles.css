@@ -79,6 +79,7 @@ body{
     margin-inline-end: 0px;
     padding-inline-start: 40px; */
     border: solid 5px #4C8F96;
+    border-radius: 5px;
     justify-content: space-evenly;
 
 }

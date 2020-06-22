@@ -97,21 +97,26 @@ footer{
 }
 
 .featured_article{
-    border: solid 5px #5fb3bd;   
+    border: solid 5px #5fb3bd;
+    border-radius: 5px;   
 }
 
 .Hairstyle_article{
     border: solid 5px #5fb3bd;
+    border-radius: 5px;
     background-color: #519194;
 }
 
 .Hair_loss_article{
     border: solid 5px #5fb3bd;
+    border-radius: 5px;
     background-color: #519194;
 }
 
 .gallery{
     border: solid 5px #4C8F96;
+    border-radius: 5px;
+    box-shadow: gray 5px 15px 15px;
 }
 .avatar{
     padding: 10px 10px 10px;
