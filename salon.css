@@ -98,6 +98,13 @@ nav {
 footer{
     height: 115px;
     background-color: #4C8F96;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+p{
+    color: white;
 }
 
 .top{
