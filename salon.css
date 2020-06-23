@@ -100,7 +100,8 @@ footer{
 
 .featured_article{
     border: solid 5px #5fb3bd;
-    border-radius: 5px;   
+    border-radius: 5px; 
+    padding: 10px 10px;  
 }
 
 .Hairstyle_article{
@@ -121,5 +122,19 @@ footer{
     box-shadow: gray 5px 15px 15px;
 }
 .avatar{
-    padding: 10px 10px 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .Image_gallery {
+    flex: 100%;
+    max-width: 100%;
+    flex-direction: column;
+    }
+    .columns{
+    flex: 100%;
+    max-width: 100%;
+    flex-direction: column;
+    }
 }
